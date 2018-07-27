@@ -10,7 +10,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     } // Rotate Into X With Menu Lines
     &.close {
@@ -28,14 +28,12 @@
             }
         }
     }
-}
-
-// Menu Overlay
+} // Menu Overlay
 .menu {
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.95;
+    opacity: 0.9;
     visibility: hidden;
     &.show {
         visibility: visible;
@@ -104,9 +102,7 @@
             color: $secondary-color;
         }
     }
-}
-
-// Delay each nav item slide by 0.1s
+} // Delay each nav item slide by 0.1s
 @for $x from 1 through 4 {
     .nav-item:nth-child(#{$x}) {
         transition-delay: $x * 0.1s;
