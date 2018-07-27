@@ -1,0 +1,22 @@
+{
+  "name": "rogeriera.github.io",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriera/rogeriera.github.io.git"
+  },
+  "author": "Roger Riera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogeriera/rogeriera.github.io/issues"
+  },
+  "homepage": "https://github.com/rogeriera/rogeriera.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
